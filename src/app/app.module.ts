@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PickerComponent } from './components/col-pick/picker/picker.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PickerComponent
   ],
   imports: [
     BrowserModule,
